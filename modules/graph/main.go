@@ -24,12 +24,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/open-falcon/falcon-plus/modules/graph/api"
-	"github.com/open-falcon/falcon-plus/modules/graph/cron"
-	"github.com/open-falcon/falcon-plus/modules/graph/g"
-	"github.com/open-falcon/falcon-plus/modules/graph/http"
-	"github.com/open-falcon/falcon-plus/modules/graph/index"
-	"github.com/open-falcon/falcon-plus/modules/graph/rrdtool"
+	"github.com/HZ89/falcon-plus/modules/graph/api"
+	"github.com/HZ89/falcon-plus/modules/graph/cron"
+	"github.com/HZ89/falcon-plus/modules/graph/g"
+	"github.com/HZ89/falcon-plus/modules/graph/http"
+	"github.com/HZ89/falcon-plus/modules/graph/index"
+	"github.com/HZ89/falcon-plus/modules/graph/rrdtool"
 )
 
 func start_signal(pid int, cfg *g.GlobalConfig) {

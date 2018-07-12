@@ -21,8 +21,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/open-falcon/falcon-plus/modules/graph/g"
-	"github.com/open-falcon/falcon-plus/modules/graph/store"
+	"github.com/HZ89/falcon-plus/modules/graph/g"
+	"github.com/HZ89/falcon-plus/modules/graph/store"
 	"github.com/toolkits/file"
 )
 

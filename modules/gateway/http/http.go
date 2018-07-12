@@ -20,7 +20,7 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"github.com/open-falcon/falcon-plus/modules/gateway/g"
+	"github.com/HZ89/falcon-plus/modules/gateway/g"
 )
 
 type Dto struct {

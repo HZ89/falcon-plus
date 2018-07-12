@@ -1,0 +1,77 @@
+package: github.com/HZ89/falcon-plus
+import:
+- package: github.com/Sirupsen/logrus
+  version: ~1.0.5
+- package: github.com/astaxie/beego
+  version: ~1.9.2
+  subpackages:
+  - orm
+- package: github.com/emirpasic/gods
+  version: ~1.9.0
+  subpackages:
+  - maps/hashmap
+- package: github.com/garyburd/redigo
+  version: ~1.6.0
+  subpackages:
+  - redis
+- package: github.com/gin-gonic/gin
+  version: ~1.2.0
+- package: github.com/go-sql-driver/mysql
+  version: ~1.4.0
+- package: github.com/jinzhu/gorm
+  version: ~1.9.1
+- package: github.com/masato25/yaag
+  subpackages:
+  - gin
+  - yaag
+- package: github.com/mindprince/gonvml
+- package: github.com/niean/goperfcounter
+- package: github.com/open-falcon/rrdlite
+- package: github.com/satori/go.uuid
+  version: ~1.2.0
+- package: github.com/spf13/cobra
+  version: ~0.0.3
+- package: github.com/spf13/viper
+  version: ~1.0.2
+- package: github.com/toolkits/cache
+  subpackages:
+  - localcache/timedcache
+- package: github.com/toolkits/concurrent
+  subpackages:
+  - semaphore
+- package: github.com/toolkits/conn_pool
+  subpackages:
+  - rpc_conn_pool
+- package: github.com/toolkits/consistent
+  subpackages:
+  - rings
+- package: github.com/toolkits/container
+  subpackages:
+  - list
+  - nmap
+  - set
+- package: github.com/toolkits/core
+- package: github.com/toolkits/cron
+  version: ~1.0.0
+- package: github.com/toolkits/file
+- package: github.com/toolkits/http
+  subpackages:
+  - httpclient
+- package: github.com/toolkits/net
+  subpackages:
+  - httplib
+- package: github.com/toolkits/nux
+- package: github.com/toolkits/proc
+- package: github.com/toolkits/slice
+- package: github.com/toolkits/str
+- package: github.com/toolkits/sys
+- package: github.com/toolkits/time
+testImport:
+- package: github.com/chyeh/viper
+- package: github.com/elgs/jsonql
+- package: github.com/masato25/resty
+  version: ~0.9.0
+- package: github.com/smartystreets/goconvey
+  version: ~1.6.3
+  subpackages:
+  - convey

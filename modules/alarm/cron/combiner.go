@@ -17,11 +17,11 @@ package cron
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/HZ89/falcon-plus/modules/alarm/api"
+	"github.com/HZ89/falcon-plus/modules/alarm/g"
+	"github.com/HZ89/falcon-plus/modules/alarm/redi"
 	log "github.com/Sirupsen/logrus"
 	"github.com/garyburd/redigo/redis"
-	"github.com/open-falcon/falcon-plus/modules/alarm/api"
-	"github.com/open-falcon/falcon-plus/modules/alarm/g"
-	"github.com/open-falcon/falcon-plus/modules/alarm/redi"
 	"strings"
 	"time"
 )

@@ -18,11 +18,11 @@ import (
 	"encoding/json"
 	"time"
 
+	cmodel "github.com/HZ89/falcon-plus/common/model"
+	"github.com/HZ89/falcon-plus/modules/alarm/g"
+	eventmodel "github.com/HZ89/falcon-plus/modules/alarm/model/event"
 	log "github.com/Sirupsen/logrus"
 	"github.com/garyburd/redigo/redis"
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
-	"github.com/open-falcon/falcon-plus/modules/alarm/g"
-	eventmodel "github.com/open-falcon/falcon-plus/modules/alarm/model/event"
 )
 
 func ReadHighEvent() {

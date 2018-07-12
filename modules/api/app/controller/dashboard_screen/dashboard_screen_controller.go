@@ -16,9 +16,9 @@ package dashboard_screen
 
 import (
 	"fmt"
+	h "github.com/HZ89/falcon-plus/modules/api/app/helper"
+	m "github.com/HZ89/falcon-plus/modules/api/app/model/dashboard"
 	"github.com/gin-gonic/gin"
-	h "github.com/open-falcon/falcon-plus/modules/api/app/helper"
-	m "github.com/open-falcon/falcon-plus/modules/api/app/model/dashboard"
 	"strconv"
 )
 

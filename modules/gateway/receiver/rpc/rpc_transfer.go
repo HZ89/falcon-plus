@@ -18,12 +18,12 @@ import (
 	"strconv"
 	"time"
 
+	cmodel "github.com/HZ89/falcon-plus/common/model"
+	cutils "github.com/HZ89/falcon-plus/common/utils"
 	pfc "github.com/niean/goperfcounter"
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
-	cutils "github.com/open-falcon/falcon-plus/common/utils"
 
-	"github.com/open-falcon/falcon-plus/modules/gateway/g"
-	"github.com/open-falcon/falcon-plus/modules/gateway/sender"
+	"github.com/HZ89/falcon-plus/modules/gateway/g"
+	"github.com/HZ89/falcon-plus/modules/gateway/sender"
 )
 
 type Transfer int

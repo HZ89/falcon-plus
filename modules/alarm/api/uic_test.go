@@ -17,8 +17,8 @@ package api
 import (
 	"testing"
 
+	"github.com/HZ89/falcon-plus/modules/alarm/g"
 	log "github.com/Sirupsen/logrus"
-	"github.com/open-falcon/falcon-plus/modules/alarm/g"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

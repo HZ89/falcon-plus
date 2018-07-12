@@ -17,8 +17,8 @@ package api
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/HZ89/falcon-plus/modules/alarm/g"
 	log "github.com/Sirupsen/logrus"
-	"github.com/open-falcon/falcon-plus/modules/alarm/g"
 	"github.com/toolkits/net/httplib"
 	"sync"
 	"time"

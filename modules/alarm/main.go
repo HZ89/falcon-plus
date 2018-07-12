@@ -21,11 +21,11 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/HZ89/falcon-plus/modules/alarm/cron"
+	"github.com/HZ89/falcon-plus/modules/alarm/g"
+	"github.com/HZ89/falcon-plus/modules/alarm/http"
+	"github.com/HZ89/falcon-plus/modules/alarm/model"
 	"github.com/gin-gonic/gin"
-	"github.com/open-falcon/falcon-plus/modules/alarm/cron"
-	"github.com/open-falcon/falcon-plus/modules/alarm/g"
-	"github.com/open-falcon/falcon-plus/modules/alarm/http"
-	"github.com/open-falcon/falcon-plus/modules/alarm/model"
 )
 
 func main() {

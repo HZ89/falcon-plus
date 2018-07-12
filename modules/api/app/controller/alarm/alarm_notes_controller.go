@@ -17,9 +17,9 @@ package alarm
 import (
 	"errors"
 	"fmt"
+	h "github.com/HZ89/falcon-plus/modules/api/app/helper"
+	alm "github.com/HZ89/falcon-plus/modules/api/app/model/alarm"
 	"github.com/gin-gonic/gin"
-	h "github.com/open-falcon/falcon-plus/modules/api/app/helper"
-	alm "github.com/open-falcon/falcon-plus/modules/api/app/model/alarm"
 	"strings"
 	"time"
 )

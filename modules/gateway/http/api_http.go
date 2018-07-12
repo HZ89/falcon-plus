@@ -18,9 +18,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
+	cmodel "github.com/HZ89/falcon-plus/common/model"
 
-	trpc "github.com/open-falcon/falcon-plus/modules/gateway/receiver/rpc"
+	trpc "github.com/HZ89/falcon-plus/modules/gateway/receiver/rpc"
 )
 
 func configApiHttpRoutes() {

@@ -17,13 +17,13 @@ package sender
 import (
 	"log"
 
+	cmodel "github.com/HZ89/falcon-plus/common/model"
 	pfc "github.com/niean/goperfcounter"
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
 	nlist "github.com/toolkits/container/list"
 	nproc "github.com/toolkits/proc"
 
-	backend "github.com/open-falcon/falcon-plus/common/backend_pool"
-	"github.com/open-falcon/falcon-plus/modules/gateway/g"
+	backend "github.com/HZ89/falcon-plus/common/backend_pool"
+	"github.com/HZ89/falcon-plus/modules/gateway/g"
 )
 
 const (

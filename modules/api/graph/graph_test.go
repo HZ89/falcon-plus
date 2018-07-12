@@ -15,8 +15,8 @@
 package graph
 
 import (
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
-	"github.com/open-falcon/falcon-plus/modules/api/config"
+	cmodel "github.com/HZ89/falcon-plus/common/model"
+	"github.com/HZ89/falcon-plus/modules/api/config"
 	. "github.com/smartystreets/goconvey/convey"
 	"github.com/spf13/viper"
 	"log"

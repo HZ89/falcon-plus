@@ -15,8 +15,8 @@
 package http
 
 import (
+	"github.com/HZ89/falcon-plus/modules/graph/proc"
 	"github.com/gin-gonic/gin"
-	"github.com/open-falcon/falcon-plus/modules/graph/proc"
 )
 
 func configProcRoutes() {

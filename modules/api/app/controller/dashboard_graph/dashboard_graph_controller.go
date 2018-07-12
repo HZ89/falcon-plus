@@ -15,10 +15,10 @@
 package dashboard_graph
 
 import (
+	cutils "github.com/HZ89/falcon-plus/common/utils"
+	h "github.com/HZ89/falcon-plus/modules/api/app/helper"
+	m "github.com/HZ89/falcon-plus/modules/api/app/model/dashboard"
 	"github.com/gin-gonic/gin"
-	cutils "github.com/open-falcon/falcon-plus/common/utils"
-	h "github.com/open-falcon/falcon-plus/modules/api/app/helper"
-	m "github.com/open-falcon/falcon-plus/modules/api/app/model/dashboard"
 	"sort"
 	"strconv"
 	"strings"

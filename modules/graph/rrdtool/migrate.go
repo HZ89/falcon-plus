@@ -27,10 +27,10 @@ import (
 	pfc "github.com/niean/goperfcounter"
 	"github.com/toolkits/consistent"
 
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
-	cutils "github.com/open-falcon/falcon-plus/common/utils"
-	"github.com/open-falcon/falcon-plus/modules/graph/g"
-	"github.com/open-falcon/falcon-plus/modules/graph/store"
+	cmodel "github.com/HZ89/falcon-plus/common/model"
+	cutils "github.com/HZ89/falcon-plus/common/utils"
+	"github.com/HZ89/falcon-plus/modules/graph/g"
+	"github.com/HZ89/falcon-plus/modules/graph/store"
 )
 
 const (
